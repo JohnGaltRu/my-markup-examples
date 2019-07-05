@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Gilroy-Light;
+  src: local("Gilroy-Light"), url("../Gilroy-Light.otf") format("OpenType"); }
+
+body {
+  font-family: Gilroy-Light, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; }
+
+ul {
+  list-style: none; }
