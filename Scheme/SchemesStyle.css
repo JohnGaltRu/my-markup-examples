@@ -1,2 +1,279 @@
-body {
-  color: pink; }
+.schemeWrapper {
+  background-color: #2D333B;
+  height: 761px;
+  margin: 30px auto;
+  width: 985px;
+  position: relative; }
+
+.block {
+  background-color: #FFFFFF;
+  color: #222222;
+  display: inline-block;
+  font-family: Arial MT;
+  font-size: 17px;
+  position: absolute;
+  top: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.block > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.small {
+  width: 200px;
+  height: 42px; }
+
+.big {
+  width: 200px;
+  height: 62px; }
+
+#Allik {
+  top: 95px;
+  left: 22px; }
+
+#Du {
+  top: 85px;
+  left: 741px; }
+
+#An {
+  top: 166px;
+  left: 741px; }
+
+#Stas {
+  top: 228px;
+  left: 142px; }
+
+#Alex {
+  top: 238px;
+  left: 741px; }
+
+#Lydmila {
+  top: 310px;
+  left: 262px; }
+
+#Olga {
+  top: 391px;
+  left: 262px; }
+
+#Dmitry {
+  top: 391px;
+  left: 741px; }
+
+#Kristina {
+  top: 453px;
+  left: 741px; }
+
+#Maksim {
+  top: 515px;
+  left: 741px; }
+
+#Sergei {
+  top: 576px;
+  left: 262px; }
+
+#Igor {
+  top: 635px;
+  left: 141px; }
+
+#Anton {
+  top: 698px;
+  left: 141px; }
+
+.block:not(:first-of-type)::before {
+  content: "";
+  position: absolute;
+  left: -18px;
+  width: 18px;
+  height: 1px;
+  background-color: #aaa; }
+
+.block.small:not(:first-of-type)::before {
+  top: 21px; }
+
+.block.big::before {
+  top: 31px; }
+
+#Maksim::after {
+  content: "";
+  position: absolute;
+  right: -18px;
+  width: 18px;
+  height: 1px;
+  background-color: #aaa; }
+
+#Anton::after {
+  content: "";
+  position: absolute;
+  left: -18px;
+  bottom: 50%;
+  width: 1px;
+  height: 582px;
+  background-color: #aaa; }
+
+#Sergei::after {
+  content: "";
+  position: absolute;
+  left: -18px;
+  bottom: 50%;
+  width: 1px;
+  height: 306px;
+  background-color: #aaa; }
+
+#Kristina::after {
+  content: "";
+  position: absolute;
+  left: -18px;
+  width: 1px;
+  height: 122px;
+  background-color: #aaa; }
+
+#Dmitry::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -18px;
+  width: 1px;
+  height: 122px;
+  background-color: #aaa; }
+
+#Olga::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -279px;
+  width: 279px;
+  height: 1px;
+  background-color: #aaa; }
+
+#Alex::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -399px;
+  width: 399px;
+  height: 1px;
+  background-color: #aaa; }
+
+#An::after {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: -18px;
+  width: 1px;
+  height: 71px;
+  background-color: #aaa; }
+
+#Du::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -519px;
+  width: 519px;
+  height: 1px;
+  background-color: #aaa; }
+
+#Allik::before {
+  content: "";
+  position: absolute;
+  right: -8px;
+  width: 6px;
+  height: 6px;
+  border-bottom: 1px solid #d7d8da;
+  border-left: 1px solid #d7d8da;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+#Allik::after {
+  content: "";
+  position: absolute;
+  left: 48.5%;
+  bottom: -8px;
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid #d7d8da;
+  border-right: 1px solid #d7d8da;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+#StasArrows::before {
+  content: "";
+  position: absolute;
+  top: 45%;
+  right: -8px;
+  width: 6px;
+  height: 6px;
+  border-bottom: 1px solid #d7d8da;
+  border-left: 1px solid #d7d8da;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+#StasArrows::after {
+  content: "";
+  position: absolute;
+  left: 49.5%;
+  bottom: -8px;
+  width: 6px;
+  height: 6px;
+  border-top: 1px solid #d7d8da;
+  border-right: 1px solid #d7d8da;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+#OlgaArrows:before {
+  content: "";
+  position: absolute;
+  top: 43%;
+  right: -8px;
+  width: 6px;
+  height: 6px;
+  border-bottom: 1px solid #d7d8da;
+  border-left: 1px solid #d7d8da;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+#DmitryArrows::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -18px;
+  width: 18px;
+  height: 1px;
+  background-color: #aaa; }
+
+#DmitryArrows::after {
+  content: "";
+  position: absolute;
+  top: 43%;
+  right: -8px;
+  width: 6px;
+  height: 6px;
+  border-bottom: 1px solid #d7d8da;
+  border-left: 1px solid #d7d8da;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }

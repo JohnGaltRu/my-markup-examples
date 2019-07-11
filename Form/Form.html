@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>My markup examples</title>
@@ -7,6 +7,80 @@
 	<meta name="viewport" content="width=device-width, (initial-scale=1, shrink-to-fit=no)">
 </head>
 <body>
-Hello Form!
+	<a href="../index.html" style="text-decoration: none; font-size: 16px; word-spacing: 0.5em; margin: 30px;"><< Back</a>
+	<div class="formWrapper">
+		<div class="formTitleDiv">
+			<span class="formTitleSpanBig">Fill in the fields</span>
+			<span class="formTitleSpan">Please!</span>
+		</div>
+		<form action="" class="form">
+			<div class="formMainPart">
+				<div class="formMainPartTitleWrapper">
+					<div class="emptyDiv formLeftColumn"></div>
+					<div class="formMainPartSpanDiv formRightColumn">
+						<span class="formMainPartSpan">Main</span>
+					</div>
+				</div>	
+				<div class="formMainPartNamesWrapper">
+					<div class="formLeftColumn">
+						<label for="namesInput" class="formMainPartNamesLabel">Name</label>
+					</div>
+					<div class="formMainPartNamesInputDiv formRightColumn">
+						<input type="text" class="formMainPartNamesInput" name="namesInput" id="namesInput" placeholder="as in passport">
+					</div>
+				</div>
+				<div class="formMainPartColorsWrapper">
+					<div class="formLeftColumn">
+						<label for="colorsInput" class="formMainPartColorsLabel">Your hair color</label>
+					</div>
+					<div class="formMainPartNamesColorsDiv formRightColumn">	
+						<input type="color" class="formMainPartColorsInput" name="colorsInput" id="colorsInput" value="#0000FF">
+					</div>
+				</div>
+			</div>
+			<div class="emptyDivForShadow">
+			<div class="formAdditionalPart">
+				<div class="formAdditionalPartTitleWrapper">
+					<div class="emptyDiv formLeftColumn"></div>
+					<div class="formAdditionalPartSpanDiv formRightColumn">
+						<span class="formAdditionalPartSpan">Additional</span>
+					</div>
+				</div>	
+				<div class="formAdditionalPartCommentWrapper">
+					<div class="formLeftColumn">
+						<label for="commentTextarea" class="formAdditionalPartCommentLabel">Comment</label>
+					</div>
+					<div class="formAdditionalPartcommentTextareaDiv formRightColumn">
+						<textarea class="formAdditionalPartcommentTextarea" name="commentTextarea" id="commentTextarea" 
+						rows="3" placeholder="Write at least something.&#10;If you want, of course." ></textarea>
+					</div>
+				</div>	
+			</div>
+			</div>
+			<div class="formButtonsPart">
+				<div class="formButtonsPartCheckboxRadioWrapper">
+					<div class="emptyDiv formLeftColumn"></div>
+					<div class="formButtonsPartCheckboxRadioDiv formRightColumn">
+						<input type="radio" name="radio" id="radio">
+						<label for="radio">Well, here just lie down radiobathon</label>
+					</div>
+				</div>
+				<div class="formButtonsPartCheckboxWrapper">
+					<div class="emptyDiv formLeftColumn"></div>
+					<div class="formButtonsPartCheckboxDiv formRightColumn">
+						<input type="checkbox" name="checkbox" id="checkbox" checked="true">
+						<label for="checkbox">I agree to whatever you come up with and realize that this can mean <a href="">anything</a></label>
+					</div>
+				</div>
+				<div class="formButtonsPartSubmitButtonWrapper">
+					<div class="emptyDiv formLeftColumn"></div>
+					<div class="formButtonsPartSubmitButtonDiv formRightColumn">
+						<button class="button">Send all my details</button>
+					</div>
+				</div>	
+			</div>	
+		</form>
+	</div>
 </body>
 </html>
+
